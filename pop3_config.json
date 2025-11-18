@@ -1,0 +1,104 @@
+{
+  "known_providers": {
+    "gmail.com": [
+      {
+        "server": "pop.gmail.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "outlook.com": [
+      {
+        "server": "outlook.office365.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "yahoo.com": [
+      {
+        "server": "pop.mail.yahoo.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "hotmail.com": [
+      {
+        "server": "outlook.office365.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "cycu.edu.tw": [
+      {
+        "server": "mail.cycu.edu.tw",
+        "port": 110,
+        "ssl": false
+      },
+      {
+        "server": "mail.cycu.edu.tw",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "qq.com": [
+      {
+        "server": "pop.qq.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "163.com": [
+      {
+        "server": "pop.163.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "126.com": [
+      {
+        "server": "pop.126.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "aol.com": [
+      {
+        "server": "pop.aol.com",
+        "port": 995,
+        "ssl": true
+      }
+    ],
+    "icloud.com": [
+      {
+        "server": "pop.mail.me.com",
+        "port": 995,
+        "ssl": true
+      }
+    ]
+  },
+  "server_patterns": [
+    "pop.{domain}",
+    "pop3.{domain}",
+    "mail.{domain}",
+    "pop.{domain}.com",
+    "pop3.{domain}.com",
+    "mail.{domain}.com",
+    "pop01.{domain}",
+    "pop02.{domain}",
+    "pop-mail.{domain}",
+    "pop3-mail.{domain}"
+  ],
+  "ports_to_try": [
+    995,
+    110
+  ],
+  "timeout_settings": {
+    "connection_timeout": 10,
+    "read_timeout": 30
+  },
+  "pop3_features": {
+    "support_uidl": true,
+    "support_top": true,
+    "leave_messages_on_server": true
+  }
+}

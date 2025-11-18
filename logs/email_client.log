@@ -1,0 +1,1006 @@
+2025-11-18 00:28:37 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 00:28:39 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 00:28:39 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 00:28:39 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 00:28:39 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 00:28:39 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 00:28:39 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 00:28:39 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 00:28:39 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 00:28:40 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 00:28:40 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 00:28:40 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 00:28:40 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 00:28:41 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 00:28:41 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 00:28:41 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 00:28:41 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:41 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:41 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:41 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 00:28:44 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 00:28:44 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:46 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:46 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:28:47 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 00:28:47 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 00:28:50 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:50 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:28:50 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 00:28:50 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 00:28:50 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 00:28:50 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 00:40:49 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 00:40:51 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 00:40:51 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 00:40:51 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 00:40:51 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 00:40:52 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 00:40:52 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 00:40:52 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 00:40:52 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 00:40:53 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 00:40:53 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 00:40:53 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 00:40:53 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 00:40:54 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 00:40:54 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 00:40:54 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 00:40:54 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:54 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:54 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:54 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:40:56 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:56 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:57 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 00:40:57 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 00:40:57 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:40:59 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 00:40:59 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 00:41:02 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:41:02 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:41:02 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 00:41:02 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 00:41:02 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 00:41:02 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 00:44:39 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 00:44:41 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 00:44:41 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 00:44:41 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 00:44:41 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 00:44:41 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 00:44:41 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 00:44:41 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 00:44:41 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 00:44:42 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 00:44:42 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 00:44:42 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 00:44:42 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 00:44:43 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 00:44:43 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 00:44:43 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 00:44:43 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:43 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:43 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:43 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:45 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:45 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 00:44:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 00:44:46 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:48 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:48 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:49 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:44:50 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 00:44:50 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 00:44:52 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:52 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:44:52 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 00:44:52 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 00:44:52 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 00:44:52 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 00:45:39 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 00:45:41 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 00:45:41 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 00:45:41 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 00:45:41 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 00:45:42 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 00:45:42 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 00:45:42 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 00:45:42 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 00:45:42 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 00:45:42 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 00:45:43 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 00:45:43 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 00:45:47 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 00:45:47 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 00:45:47 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 00:45:47 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:47 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:47 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:47 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 00:45:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 00:45:49 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:51 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:51 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:51 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:51 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:45:52 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 00:45:52 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 00:45:54 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:54 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:45:54 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 00:45:54 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 00:45:54 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 00:45:54 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 00:48:30 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 00:48:32 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 00:48:32 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 00:48:32 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 00:48:32 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 00:48:33 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 00:48:33 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 00:48:33 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 00:48:33 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 00:48:34 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 00:48:34 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 00:48:34 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 00:48:34 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 00:48:35 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 00:48:35 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 00:48:35 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 00:48:35 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:35 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 00:48:37 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 00:48:37 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:39 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:39 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:39 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 00:48:40 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 00:48:40 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 00:48:42 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:42 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 00:48:42 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 00:48:43 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 00:48:43 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 00:48:43 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 01:18:02 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 01:18:04 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 01:18:04 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 01:18:04 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 01:18:04 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:18:05 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:18:05 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 01:18:05 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 01:18:05 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 01:18:06 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 01:18:06 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 01:18:06 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 01:18:06 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 01:18:07 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 01:18:07 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 01:18:07 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 01:18:07 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:07 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:07 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:07 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 01:18:09 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 01:18:09 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:11 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:11 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:11 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:18:12 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 01:18:12 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 01:18:14 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:14 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:18:14 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:18:14 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:18:14 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 01:18:14 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 01:21:25 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 01:21:27 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 01:21:28 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 01:21:28 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 01:21:28 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:21:28 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:21:28 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 01:21:28 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 01:21:28 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 01:21:29 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 01:21:29 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 01:21:29 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 01:21:29 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 01:21:30 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 01:21:30 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 01:21:30 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 01:21:30 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:30 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 01:21:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 01:21:32 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:34 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:34 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:34 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:21:35 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 01:21:35 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 01:21:37 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:37 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:21:37 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:21:38 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:21:38 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 01:21:38 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 01:21:38 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:21:38 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:21:39 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:21:39 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:22:14 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 01:22:16 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 01:22:16 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 01:22:16 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 01:22:16 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:22:16 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:22:16 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 01:22:16 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 01:22:16 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 01:22:17 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 01:22:17 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 01:22:17 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 01:22:17 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 01:22:18 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 01:22:18 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 01:22:18 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 01:22:18 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:18 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:18 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:18 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:20 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:20 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:21 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 01:22:21 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 01:22:21 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:22:23 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 01:22:23 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 01:22:25 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:25 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:22:25 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:22:26 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:22:26 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 01:22:26 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 01:22:26 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:22:26 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:22:30 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:22:30 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:23:23 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 01:23:25 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 01:23:25 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 01:23:25 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 01:23:25 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:23:26 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:23:26 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 01:23:26 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 01:23:26 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 01:23:27 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 01:23:27 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 3 封郵件
+2025-11-18 01:23:27 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 01:23:27 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 01:23:28 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 01:23:28 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 01:23:28 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 01:23:28 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:28 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:28 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:28 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 01:23:30 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 01:23:30 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:32 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:32 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 01:23:33 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 01:23:33 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 01:23:35 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:35 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 01:23:35 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:23:35 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 01:23:35 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 01:23:35 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 01:23:35 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 01:23:36 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 01:23:38 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 01:23:38 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 03:28:18 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 03:28:20 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 03:28:20 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 03:28:20 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 03:28:20 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 03:28:21 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 03:28:21 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 03:28:21 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 03:28:21 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 03:28:22 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 03:28:22 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 6 封郵件
+2025-11-18 03:28:22 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 03:28:22 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 03:28:33 - WARNING - SMTP 連接失敗 smtp.cycu.edu.tw:465 - Connection unexpectedly closed: The read operation timed out
+2025-11-18 03:28:33 - WARNING - SMTP 連接失敗 smtp.cycu.edu.tw:465: Connection unexpectedly closed: The read operation timed out
+2025-11-18 03:28:33 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:587 (SSL: False)
+2025-11-18 03:28:43 - WARNING - SMTP 連接失敗 smtp.cycu.edu.tw:587 - timed out
+2025-11-18 03:28:43 - WARNING - SMTP 連接失敗 smtp.cycu.edu.tw:587: timed out
+2025-11-18 03:28:43 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 03:28:44 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 03:28:44 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 03:28:44 - INFO - 使用通用 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 03:28:44 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:44 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:44 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 03:28:46 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 03:28:46 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:48 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:48 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:48 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:28:49 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 03:28:49 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)
+2025-11-18 03:28:51 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:51 - WARNING - POP3 連接失敗 mail.cycu.edu.tw:110: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:28:51 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 03:28:51 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 03:28:51 - INFO - POP3 連接成功！ mail.cycu.edu.tw:995 - 共有 273 封郵件
+2025-11-18 03:28:51 - INFO - 使用已知 POP3 設定: mail.cycu.edu.tw:995
+2025-11-18 03:28:51 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 03:28:52 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 03:28:55 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:995 (SSL: True)
+2025-11-18 03:28:55 - INFO - POP3 連接成功: mail.cycu.edu.tw:995
+2025-11-18 03:29:57 - INFO - 嘗試連接 SMTP smtp.gmail.com:587 (SSL: False)
+2025-11-18 03:29:59 - INFO - SMTP 連接成功: smtp.gmail.com:587
+2025-11-18 03:29:59 - INFO - SMTP 連接成功！ smtp.gmail.com:587
+2025-11-18 03:29:59 - INFO - 使用已知 SMTP 設定: smtp.gmail.com:587
+2025-11-18 03:29:59 - INFO - 嘗試連接 IMAP imap.gmail.com:993 (SSL: True)
+2025-11-18 03:29:59 - INFO - IMAP 連接成功: imap.gmail.com:993
+2025-11-18 03:29:59 - INFO - IMAP 連接成功！ imap.gmail.com:993
+2025-11-18 03:29:59 - INFO - 使用已知 IMAP 設定: imap.gmail.com:993
+2025-11-18 03:29:59 - INFO - 嘗試連接 POP3 pop.gmail.com:995 (SSL: True)
+2025-11-18 03:30:00 - INFO - POP3 連接成功: pop.gmail.com:995
+2025-11-18 03:30:00 - INFO - POP3 連接成功！ pop.gmail.com:995 - 共有 6 封郵件
+2025-11-18 03:30:00 - INFO - 使用已知 POP3 設定: pop.gmail.com:995
+2025-11-18 03:30:00 - INFO - 嘗試連接 SMTP smtp.cycu.edu.tw:465 (SSL: True)
+2025-11-18 03:30:01 - INFO - SMTP 連接成功: smtp.cycu.edu.tw:465
+2025-11-18 03:30:01 - INFO - SMTP 連接成功！ smtp.cycu.edu.tw:465
+2025-11-18 03:30:01 - INFO - 使用已知 SMTP 設定: smtp.cycu.edu.tw:465
+2025-11-18 03:30:01 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:01 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:01 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:01 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993 - b'LOGIN failure: permission denied'
+2025-11-18 03:30:04 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:993: b'LOGIN failure: permission denied'
+2025-11-18 03:30:04 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143 - [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw:143: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-11-18 03:30:06 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - INFO - 嘗試連接 IMAP imap.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - INFO - 嘗試連接 IMAP imap4.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - WARNING - IMAP 連接失敗 imap4.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:06 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:993 (SSL: True)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP mail.cycu.edu.tw.com:143 (SSL: False)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 mail.cycu.edu.tw.com:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap01.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap01.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap02.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap02.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:993 (SSL: True)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:993: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - INFO - 嘗試連接 IMAP imap4-mail.cycu.edu.tw:143 (SSL: False)
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143 - [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - IMAP 連接失敗 imap4-mail.cycu.edu.tw:143: [Errno 11001] getaddrinfo failed
+2025-11-18 03:30:07 - WARNING - 無法自動偵測 s11127246@cycu.edu.tw 的 IMAP 設定
+2025-11-18 03:30:07 - INFO - 嘗試連接 POP3 mail.cycu.edu.tw:110 (SSL: False)

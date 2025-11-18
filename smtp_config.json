@@ -1,0 +1,107 @@
+{
+  "known_providers": {
+    "gmail.com": [
+      {
+        "server": "smtp.gmail.com",
+        "port": 587,
+        "ssl": false
+      },
+      {
+        "server": "smtp.gmail.com",
+        "port": 465,
+        "ssl": true
+      }
+    ],
+    "outlook.com": [
+      {
+        "server": "smtp-mail.outlook.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "yahoo.com": [
+      {
+        "server": "smtp.mail.yahoo.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "hotmail.com": [
+      {
+        "server": "smtp-mail.outlook.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "cycu.edu.tw": [
+      {
+        "server": "smtp.cycu.edu.tw",
+        "port": 465,
+        "ssl": true
+      }
+    ],
+    "qq.com": [
+      {
+        "server": "smtp.qq.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "163.com": [
+      {
+        "server": "smtp.163.com",
+        "port": 465,
+        "ssl": true
+      }
+    ],
+    "126.com": [
+      {
+        "server": "smtp.126.com",
+        "port": 465,
+        "ssl": true
+      }
+    ],
+    "aol.com": [
+      {
+        "server": "smtp.aol.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "icloud.com": [
+      {
+        "server": "smtp.mail.me.com",
+        "port": 587,
+        "ssl": false
+      }
+    ],
+    "protonmail.com": [
+      {
+        "server": "smtp.protonmail.ch",
+        "port": 587,
+        "ssl": false
+      }
+    ]
+  },
+  "server_patterns": [
+    "smtp.{domain}",
+    "mail.{domain}",
+    "smtp01.{domain}",
+    "email.{domain}",
+    "smtp.{domain}.com",
+    "mail.{domain}.com",
+    "smtp-mail.{domain}",
+    "smtp-out.{domain}",
+    "smtp.send.{domain}",
+    "mailserver.{domain}"
+  ],
+  "ports_to_try": [
+    587,
+    465,
+    25
+  ],
+  "timeout_settings": {
+    "connection_timeout": 10,
+    "read_timeout": 30
+  }
+}
