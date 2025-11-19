@@ -1,10 +1,10 @@
 import email
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.header import decode_header
 from typing import Optional
 
 from emailClient import MailClient
-from json_reader import MailReaders
+from mail_reader import MailReaders
 
 
 class EmailProcessor:
@@ -49,6 +49,79 @@ class EmailProcessor:
                     recent_emails.append(email_data)
 
             return recent_emails
+
+    def _get_emails_generic(self, protocol: str, limit: int,
+                            range_date: Optional[dict] = None,
+                            range_time: Optional[int] = None) -> list[dict]:
+        """通用方法取得郵件列表"""
+        try:
+            # 參數驗證
+            if range_date is not None and range_time is not None:
+                raise ValueError("❌ range_date 和 range_time 只能使用一個")
+
+            # 設定時間範圍
+            current_time = datetime.now()
+            if range_date is None and range_time is None:
+                # 預設取得最近24小時的郵件
+                time_range = {
+                    'start': (current_time - timedelta(hours=24)).isoformat() + "Z",
+                    'end': current_time.isoformat() + "Z"
+                }
+            elif range_time is not None:
+                # 使用小時數計算時間範圍
+                time_range = {
+                    'start': (current_time - timedelta(hours=range_time)).isoformat() + "Z",
+                    'end': current_time.isoformat() + "Z"
+                }
+            else:
+                # 使用提供的 range_date
+                time_range = range_date
+
+            print(
+                f"📧 搜尋條件 - 協定: {protocol}, 數量: {limit}, 時間範圍: {time_range['start']} 到 {time_range['end']}")
+
+            # 確保伺服器連線
+            if not self._ensure_server_connection(protocol):
+                print(f"❌ {protocol.upper()} 伺服器連線失敗")
+                return []
+
+            # 取得郵件列表
+            email_ids = self._get_email_ids(protocol)
+            if not email_ids:
+                print(f"❌ 取得 {protocol.upper()} 郵件列表失敗")
+                return []
+
+            # 解析時間範圍
+            start_time = self._parse_datetime(time_range['start'])
+            end_time = self._parse_datetime(time_range['end'])
+
+            if not start_time or not end_time:
+                print("❌ 時間範圍格式錯誤")
+                return []
+
+            # 根據時間範圍篩選郵件
+            recent_emails = []
+            email_count = 0
+
+            for email_id in email_ids:
+                # 如果已經達到數量限制，就停止
+                if email_count >= limit:
+                    break
+
+                email_data = self._fetch_email_data(protocol, email_id)
+                if email_data and self._is_in_time_range(email_data, start_time, end_time):
+                    recent_emails.append(email_data)
+                    email_count += 1
+
+            print(f"✅ 找到 {len(recent_emails)} 封符合條件的郵件")
+            return recent_emails
+
+        except Exception as e:
+            print(f"❌ {protocol.upper()} 取得郵件列表失敗: {e}")
+            return []
+
+
+
 
         except Exception as e:
             print(f"❌ {protocol.upper()} 取得郵件列表失敗: {e}")
@@ -265,35 +338,4 @@ class EmailProcessor:
             return header
 
 
-def main():
-    jason_reader_instance = MailReaders()
-    clients_dict = jason_reader_instance.load_accounts()
-    clients = [MailClient(account_info) for account_info in clients_dict]
-    operators_for_clients = [EmailProcessor(client) for client in clients]
-    # store multiple mail to check mail
-    unique_mail = []
-    seen_subjects = set()
-    for operator in operators_for_clients:
-        print(f"\n=== 帳號: {operator.mail_client.account['name']} ===")
-        print(f"可用協定: {operator.mail_client.get_available_protocols()}")
-        print(f"收信協定: {operator.mail_client.get_receive_protocol()}")
-        print("\n取得最近 10 封郵件:")
-        for e in operator.get_email_list(limit=10):
-            if e['subject'] not in seen_subjects:
-                seen_subjects.add(e['subject'])
-                e['from'] = "auto_forward_bot"
-                unique_mail.append(e)
-            print(f"  主旨: {e['subject']}")
-            print(f"  寄件者: {e['from']}")
-            print(f"  收件者: {e['to']}")
-            print(f"  日期: {e['date']}")
-            print(f"  內容預覽: {e['body_text'][:50]}...\n")
-    print("\n=== 統整所有帳號的唯一郵件清單 ===")
-    print(len(unique_mail))
 
-    for operator in operators_for_clients:
-        for e in operator.get_email_list(limit=10):
-
-
-if __name__ == "__main__":
-    main()

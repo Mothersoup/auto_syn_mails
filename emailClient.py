@@ -3,7 +3,7 @@ from email.header import decode_header
 from typing import Optional
 from email_logger import email_logger
 from connection_manager import ConnectionManager
-from json_reader import auto_load_smtp, auto_load_imap, auto_load_pop3, MailReaders
+from mail_reader import auto_load_smtp, auto_load_imap, auto_load_pop3, MailReaders
 
 
 class MailClient:
