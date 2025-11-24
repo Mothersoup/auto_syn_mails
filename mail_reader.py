@@ -355,8 +355,6 @@ def _create_default_imap_config(config_file):
     return default_config
 
 
-
-
 def auto_load_config(config_type: str, config_file: str = None) -> dict:
     """
     通用設定檔載入函數
@@ -371,7 +369,6 @@ def auto_load_config(config_type: str, config_file: str = None) -> dict:
     # 設定預設檔案名稱
     if config_file is None:
         config_file = f'{config_type}_config.json'
-
 
     # 對應的預設設定建立函數
     config_creators = {
@@ -429,6 +426,3 @@ def auto_load_pop3(config_file: str = 'pop3_config.json') -> dict:
 def auto_load_imap(config_file: str = 'imap_config.json') -> dict:
     """載入 IMAP 設定 (兼容舊程式碼)"""
     return auto_load_config('imap', config_file)
-
-
-

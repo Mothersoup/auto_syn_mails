@@ -1,6 +1,7 @@
-import imaplib
+from imaplib import IMAP4_SSL, IMAP4
+from poplib import POP3_SSL, POP3
+from smtplib import SMTP, SMTP_SSL
 import poplib
-import smtplib
 from email_logger import email_logger
 
 
@@ -28,6 +29,8 @@ class ConnectionManager:
             # 根據協定設定預設 SSL
             if protocol == 'pop3' and use_ssl is None:
                 use_ssl = (port == 995)
+                #### !!!!!!!!!!!!! 增加 POP3 最大行長度限制，避免部分郵件過大導致錯誤
+                poplib._MAXLINE = 102400
             elif protocol == 'imap' and use_ssl is None:
                 use_ssl = (port == 993)
             elif protocol == 'smtp' and use_ssl is None:
@@ -37,25 +40,25 @@ class ConnectionManager:
 
             if protocol == 'smtp':
                 if use_ssl:
-                    connection = smtplib.SMTP_SSL(server_name, port, timeout=self.timeout)
+                    connection = SMTP_SSL(server_name, port, timeout=self.timeout)
                 else:
-                    connection = smtplib.SMTP(server_name, port, timeout=self.timeout)
+                    connection = SMTP(server_name, port, timeout=self.timeout)
                     connection.starttls()
                 connection.login(self.email, self.password)
 
             elif protocol == 'pop3':
                 if use_ssl:
-                    connection = poplib.POP3_SSL(server_name, port, timeout=self.timeout)
+                    connection = POP3_SSL(server_name, port, timeout=self.timeout)
                 else:
-                    connection = poplib.POP3(server_name, port, timeout=self.timeout)
+                    connection = POP3(server_name, port, timeout=self.timeout)
                 connection.user(self.email)
                 connection.pass_(self.password)
 
             elif protocol == 'imap':
                 if use_ssl:
-                    connection = imaplib.IMAP4_SSL(server_name, port, timeout=self.timeout)
+                    connection = IMAP4_SSL(server_name, port, timeout=self.timeout)
                 else:
-                    connection = imaplib.IMAP4(server_name, port, timeout=self.timeout)
+                    connection = IMAP4(server_name, port, timeout=self.timeout)
                 connection.login(self.email, self.password)
 
             else:
@@ -92,7 +95,6 @@ class ConnectionManager:
                 success_msg = f"POP3 連接成功！ {config['server']}:{config['port']} - 共有 {count} 封郵件"
                 print(f"✅ {success_msg}")
                 self.logger.info(success_msg)
-                connection.quit()
 
             elif protocol == 'imap':
                 connection.select('inbox')
@@ -106,15 +108,6 @@ class ConnectionManager:
         except Exception as e:
             self._handle_connection_error(protocol, str(e), config)
             return False
-        finally:
-            if protocol != 'imap' and connection:
-                try:
-                    if protocol == 'smtp':
-                        connection.quit()
-                    elif protocol == 'pop3':
-                        connection.quit()
-                except:
-                    pass
 
     def _handle_connection_error(self, protocol: str, error: str, config: dict = None):
         """處理連接錯誤 - 記錄到日誌"""

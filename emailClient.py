@@ -1,9 +1,7 @@
-import email
-from email.header import decode_header
 from typing import Optional
 from email_logger import email_logger
 from connection_manager import ConnectionManager
-from mail_reader import auto_load_smtp, auto_load_imap, auto_load_pop3, MailReaders
+from mail_reader import auto_load_smtp, auto_load_imap, auto_load_pop3
 
 
 class MailClient:
@@ -28,7 +26,6 @@ class MailClient:
         self._connected = False
         self.available_protocols = []
 
-        # 為了向後兼容，保持原有變數名稱
         self.smtp_server = None
         self.imap_server = None
         self.pop3_server = None
@@ -84,8 +81,11 @@ class MailClient:
     def is_connected(self, value):
         self._connected = value
 
+    def get_account_info(self) -> dict:
+        """取得帳號基本資訊"""
+        return self.account
     # 簡化後的連接方法
-    def _connect_smtp_connection(self, config: dict) -> bool:
+    def connect_smtp_connection(self, config: dict) -> bool:
         """建立 SMTP 連接並登入"""
         self.smtp_server, error = self.conn_manager.connect_protocol(config, 'smtp')
         if error:
@@ -98,7 +98,7 @@ class MailClient:
         """測試 SMTP 連接是否成功"""
         return self.conn_manager.test_connection(config, 'smtp')
 
-    def _connect_pop3_connection(self, config: dict) -> bool:
+    def connect_pop3_connection(self, config: dict) -> bool:
         """建立 POP3 連接並登入"""
         self.pop3_server, error = self.conn_manager.connect_protocol(config, 'pop3')
         if error:
@@ -111,7 +111,7 @@ class MailClient:
         """測試 POP3 連接是否成功"""
         return self.conn_manager.test_connection(config, 'pop3')
 
-    def _connect_imap_connection(self, config: dict) -> bool:
+    def connect_imap_connection(self, config: dict) -> bool:
         """建立 IMAP 連接並登入"""
         self.imap_server, error = self.conn_manager.connect_protocol(config, 'imap')
         if error:
@@ -232,174 +232,6 @@ class MailClient:
             self.logger.debug(f"無效的 {protocol.upper()} 設定，嘗試自動偵測")
             return self._auto_detect_protocol(protocol)
 
-    def get_email_list(self, limit: int = 10) -> list[dict]:
-        """取得郵件列表 - 根據可用協定"""
-        if not self.can_receive_email():
-            print("❌ 沒有可用的收信協定")
-            return []
-
-        receive_protocol = self.get_receive_protocol()
-
-        if receive_protocol == 'pop3':
-            return self._get_emails_via_pop3(limit)
-        elif receive_protocol == 'imap':
-            return self._get_emails_via_imap(limit)
-        else:
-            return []
-
-    def _get_emails_via_pop3(self, limit: int) -> list[dict]:
-        """透過 POP3 取得郵件列表"""
-        try:
-            if not self.pop3_server:
-                self._connect_pop3_connection(self.pop3_config)
-
-            pop3_status, messages, octets = self.pop3_server.list()
-
-            if pop3_status.startswith(b'+OK'):
-                email_ids = []
-                for msg_info in messages:
-                    parts = msg_info.decode().split()
-                    if parts:
-                        email_ids.append(parts[0])
-
-                recent_emails = []
-                for email_id in email_ids[-limit:]:
-                    email_data = self._fetch_email_data_pop3(email_id)
-                    if email_data:
-                        recent_emails.append(email_data)
-
-                return recent_emails
-            else:
-                print("❌ 取得 POP3 郵件列表失敗")
-                return []
-
-        except Exception as e:
-            print(f"❌ POP3 取得郵件列表失敗: {e}")
-            return []
-
-    def _get_emails_via_imap(self, limit: int) -> list[dict]:
-        """透過 IMAP 取得郵件列表"""
-        try:
-            if not self.imap_server:
-                self._connect_imap_connection(self.imap_config)
-
-            self.imap_server.select('inbox')
-            status, messages = self.imap_server.search(None, 'ALL')
-
-            if status == 'OK':
-                email_ids = messages[0].split()
-                recent_emails = []
-                for email_id in email_ids[-limit:]:
-                    email_data = self._fetch_email_data_imap(email_id)
-                    if email_data:
-                        recent_emails.append(email_data)
-                return recent_emails
-            else:
-                print("❌ 取得 IMAP 郵件列表失敗")
-                return []
-
-        except Exception as e:
-            print(f"❌ IMAP 取得郵件列表失敗: {e}")
-            return []
-
-    def _fetch_email_data_pop3(self, email_id):
-        """取得單一郵件的完整資料 - POP3 版本"""
-        try:
-            pop3_status, msg_lines, octets = self.pop3_server.retr(email_id)
-
-            if not pop3_status.startswith(b'+OK') or not msg_lines:
-                print(f"    ❌ 取得郵件 {email_id} 失敗")
-                return None
-
-            email_body = b'\r\n'.join(msg_lines)
-            email_message = email.message_from_bytes(email_body)
-            return self._parse_email_message(email_message, email_id)
-
-        except Exception as e:
-            print(f"    ❌ 解析郵件 {email_id} 失敗: {e}")
-            return None
-
-    def _fetch_email_data_imap(self, email_id):
-        """取得單一郵件的完整資料 - IMAP 版本"""
-        try:
-            status, msg_data = self.imap_server.fetch(email_id, '(RFC822)')
-
-            if status != 'OK' or not msg_data or not msg_data[0]:
-                print(f"    ❌ 取得郵件 {email_id} 失敗")
-                return None
-
-            email_body = msg_data[0][1]
-            email_message = email.message_from_bytes(email_body)
-            return self._parse_email_message(email_message, email_id)
-
-        except Exception as e:
-            print(f"    ❌ 解析郵件 {email_id} 失敗: {e}")
-            return None
-
-    def _parse_email_message(self, email_message, email_id):
-        """解析郵件訊息"""
-        try:
-            subject = self._decode_header(email_message.get('Subject', ''))
-            from_ = self._decode_header(email_message.get('From', ''))
-            to = self._decode_header(email_message.get('To', ''))
-            date = email_message.get('Date', '')
-
-            body_text = ""
-            body_html = ""
-
-            if email_message.is_multipart():
-                for part in email_message.walk():
-                    content_type = part.get_content_type()
-                    content_disposition = str(part.get('Content-Disposition', ''))
-
-                    if 'attachment' in content_disposition:
-                        continue
-
-                    if content_type == 'text/plain' and not body_text:
-                        body_text = part.get_payload(decode=True).decode('utf-8', errors='ignore')
-                    elif content_type == 'text/html' and not body_html:
-                        body_html = part.get_payload(decode=True).decode('utf-8', errors='ignore')
-            else:
-                content_type = email_message.get_content_type()
-                payload = email_message.get_payload(decode=True)
-                if payload:
-                    if content_type == 'text/plain':
-                        body_text = payload.decode('utf-8', errors='ignore')
-                    elif content_type == 'text/html':
-                        body_html = payload.decode('utf-8', errors='ignore')
-
-            return {
-                'id': email_id,
-                'subject': subject,
-                'from': from_,
-                'to': to,
-                'date': date,
-                'body_text': body_text,
-                'body_html': body_html,
-                'attachments': []
-            }
-
-        except Exception as e:
-            print(f"    ❌ 解析郵件內容失敗: {e}")
-            return None
-
-    def _decode_header(self, header):
-        """解碼郵件標頭"""
-        try:
-            decoded_parts = decode_header(header)
-            decoded_str = ''
-            for part, encoding in decoded_parts:
-                if isinstance(part, bytes):
-                    if encoding:
-                        decoded_str += part.decode(encoding)
-                    else:
-                        decoded_str += part.decode('utf-8', errors='ignore')
-                else:
-                    decoded_str += part
-            return decoded_str
-        except:
-            return header
-
     # 狀態檢查方法
     def get_available_protocols(self) -> list[str]:
         """取得可用的協定列表"""
@@ -433,6 +265,3 @@ class MailClient:
     def set_server(self, protocol: str, server):
         """設定伺服器連線"""
         self._servers[protocol] = server
-
-
-
